@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau</title>
+</head>
+<body>
+    <h2>Tableau 1</h2>
+    <table border="1">
+        <tr>
+            <td rowspan="2">A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td colspan="2">G</td>
+        </tr>
+    </table>
+
+    <h2>Tableau 2</h2>
+    <table border="1">
+        <tr>
+            <td>A</td>
+            <td rowspan="3">B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td rowspan="2">D</td>
+            <td>E</td>
+            </tr>
+        <tr>
+            <td>F</td>
+        </tr>
+    </table>  
+
+    <h2>Tableau 3</h2>
+    <table border="1">
+        <tr>
+            <td colspan="3">A</td>
+        </tr>
+        <tr>
+            <td rowspan="2">B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    </table>  
+
+    <h2>Planning des tâches par équipe</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="2">Equipes</th>
+                <th colspan="6">Janvier</th>
+                <th rowspan="2"></th>
+            </tr>
+            <tr>
+                <th>Lundi</th>
+                <th>Mardi</th>
+                <th colspan="2">Mercredi</th> 
+                <!-- Attention compter la cellule en double où d'autres rangées vont à la moitié de celle ci  -->
+                <th>Jeudi</th>
+                <th>Vendredi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Equipe 1</td>
+                <td colspan="3">Tache1</td>
+                <td colspan="3">Tache2</td>
+                <td rowspan="2">semaine1</td>
+            </tr>
+            <tr>
+                <td>Equipe 2</td>
+                <td colspan="3">Tache1</td>
+                <td colspan="3">Tache2</td>
+            </tr>
+            <tr>
+                <td>Equipe 1</td>
+                <td>Tâche3</td>
+                <td colspan="4">Tâche 4</td>
+                <td>Tâche 5</td>
+                <td rowspan="2">Semaine 2</td>
+            </tr>
+            <tr>
+                <td>Equipe 2</td>
+                <td colspan="2">Tâche3</td>
+                <td colspan="4">Tâche 4</td>
+            </tr>
+            <tr>
+                <td>Equipe 1</td>
+                <td colspan="3">Tâche5</td>
+                <td colspan="3">Tâche 6</td>
+                <td rowspan="2">Semaine 3</td>
+            </tr>
+            <tr>
+                <td>Equipe 2</td>
+                <td>Tâche5</td>
+                <td colspan="5">Tâche 6</td>
+            </tr>
+            <tr>
+                <td>Equipe 1</td>
+                <td colspan="4">Tâche 7</td>
+                <td colspan="2">Tâche 8</td>
+                <td rowspan="2">Semaine 4</td>
+            </tr>
+            <tr>
+                <td>Equipe 2</td>
+                <td colspan="3">Tâche 7</td>
+                <td colspan="3">Tâche 8</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
